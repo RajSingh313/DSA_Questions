@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class MoveZerosInEnd {
     static void moveZeros(int[] arr) {
-        int j = 0;
+        int j = 0; // index number to track next non-zero number
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] != 0) {
                 int temp = arr[i];
