@@ -9,9 +9,9 @@ public class SelectionSort {
             int minIndex = i; // let suppose minium index is at i
             for (int j = i + 1; j < arr.length; j++) // this will traverse array
             {
-                if (arr[j] < arr[minIndex])// this if statement finding minium vakue inarray
+                if (arr[j] < arr[minIndex])// this if statement finding minium value in an array
                 {
-                    minIndex = j; // and assigning that values index psotion to minIndex
+                    minIndex = j; // and assigning that values index position to minIndex
 
                 }
 
