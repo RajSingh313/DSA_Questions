@@ -1,4 +1,4 @@
-package TwoPointer;
+package ArraysGeneralQuestion;
 
 public class ReverseEachWordInString {
     public static void main(String[] args) {
@@ -7,6 +7,9 @@ public class ReverseEachWordInString {
         String result = reverseEachWord(input);
         System.out.println(result);
     }
+
+
+
 
     public static String reverseEachWord(String str) {
         String[] words = str.split(" ");
