@@ -1,4 +1,4 @@
-package ArraysGeneralQuestion;
+package TwoPointer;
 
 import java.util.Arrays;
 
