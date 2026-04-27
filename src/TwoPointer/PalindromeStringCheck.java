@@ -14,7 +14,6 @@ public class PalindromeStringCheck {
             if(s.charAt(left) != s.charAt(right)){
                 return false;
             }
-
             // Move the left pointer to the right and
             // the right pointer to the left
             left++;
