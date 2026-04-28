@@ -1,4 +1,4 @@
-package ArraysGeneralQuestion;
+package GeneralNumberDsaQuestions;
 
 import java.util.Arrays;
 

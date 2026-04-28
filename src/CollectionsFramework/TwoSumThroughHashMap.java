@@ -1,4 +1,4 @@
-package ArraysGeneralQuestion;
+package CollectionsFramework;
 
 import java.util.Arrays;
 import java.util.HashMap;

@@ -1,26 +1,25 @@
 package Strings;
 
 public class ReverseEachWordInString {
-    public static String reverseEachWord(String s){
-        String result = "";
-        String word = "";
+    public static void main(String[] args) {
+        String input = "Hello World Java";
 
-        for(int i=0; i<s.length();i++){
-            char c = s.charAt(i);
-            if (c!= ' '){
-                word = c+word;
-            }
-            else {
-                result += word+" ";
-                word ="";
-            }
-        }
-        result+=word;
-        return result;
+        String result = reverseEachWord(input);
+        System.out.println(result);
     }
 
-    public static void main(String[] args) {
-        String s = "java is fun";
-        System.out.println(reverseEachWord(s));
+
+
+
+    public static String reverseEachWord(String str) {
+        String[] words = str.split(" ");
+        StringBuilder reversedString = new StringBuilder();
+
+        for (String word : words) {
+            StringBuilder reversedWord = new StringBuilder(word);
+            reversedString.append(reversedWord.reverse()).append(" ");
+        }
+
+        return reversedString.toString().trim();
     }
 }
