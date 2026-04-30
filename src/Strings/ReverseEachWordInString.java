@@ -9,8 +9,6 @@ public class ReverseEachWordInString {
     }
 
 
-
-
     public static String reverseEachWord(String str) {
         String[] words = str.split(" ");
         StringBuilder reversedString = new StringBuilder();
