@@ -1,11 +1,10 @@
-package CollectionsFramework;
+package CollectionsFramework.Set;
 
 import java.util.HashSet;
 
 public class FirstRepeatingChar {
     public static void main(String[] args) {
         String str = "programming";
-
         Character result = findFirstRepeating(str);
 
         if (result != null) {
